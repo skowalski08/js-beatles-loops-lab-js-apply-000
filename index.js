@@ -19,6 +19,7 @@ function johnLennonFacts(array) {
   const newFacts = [];
   
   while (i < array.length) {
+<<<<<<< HEAD
     var fact = `${array[i]}!!!`;
     
     i++;
@@ -48,4 +49,18 @@ function iLoveTheBeatles(Number) {
   
   
 return result;
+=======
+    var fact = array[i];
+    var j = 0;
+    
+    while (j < fact.length - 1) {
+      var word = fact[j] + "!!!";
+      
+    }
+    i++;
+    newFacts.push(fact)
+  }
+  
+return newFacts;
+>>>>>>> e035dd857c8f6c8e8719537ae1bcb6e75808b2c2
 }
